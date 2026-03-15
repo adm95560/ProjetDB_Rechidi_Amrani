@@ -118,7 +118,7 @@ INSERT INTO PARTICIPER_CHAMPIONNAT VALUES
     ('RMA', 'ESLA24', 2),  -- Real Madrid en Liga
     ('MCI', 'ENPL24', 1),  -- Manchester City en Premier League
     ('INT', 'ITSA24', 1),  -- Inter Milan en Serie A
-    ('BAY', 'DEBU24', 1),  -- Bayern Munich en Bundesliga
+    ('BAY', 'DEBU24', 1);  -- Bayern Munich en Bundesliga
     
 
 -- 6. INSERTION DES MATCHS
