@@ -123,20 +123,20 @@ INSERT INTO PARTICIPER_CHAMPIONNAT VALUES
 
 -- 6. INSERTION DES MATCHS
 
-INSERT INTO Match VALUES
-('MAT001','2024-09-01','PSG','BAR',2,1,'FRLI24'),
-('MAT002','2024-09-02','RMA','PSG',3,2,'FRLI24'),
-('MAT003','2024-09-03','MCI','PSG',1,1,'FRLI24'),
-('MAT004','2024-09-04','BAY','PSG',2,0,'FRLI24'),
+INSERT INTO match_ VALUES
+('MAT001','2024-09-01','21:00:00','Parc des Princes',2,1,'PSG','BAR'),
+('MAT002','2024-09-02','20:45:00','Santiago Bernabeu',3,2,'RMA','PSG'),
+('MAT003','2024-09-03','21:00:00','Etihad Stadium',1,1,'MCI','PSG'),
+('MAT004','2024-09-04','20:30:00','Allianz Arena',2,0,'BAY','PSG'),
 
-('MAT005','2024-09-05','BAR','RMA',2,2,'ESLA24'),
-('MAT006','2024-09-06','RMA','BAR',3,1,'ESLA24'),
+('MAT005','2024-09-05','21:00:00','Camp Nou',2,2,'BAR','RMA'),
+('MAT006','2024-09-06','21:00:00','Santiago Bernabeu',3,1,'RMA','BAR'),
 
-('MAT007','2024-09-07','MCI','BAY',3,2,'ENPL24'),
-('MAT008','2024-09-08','MCI','INT',2,0,'ENPL24'),
+('MAT007','2024-09-07','20:45:00','Etihad Stadium',3,2,'MCI','BAY'),
+('MAT008','2024-09-08','20:45:00','Etihad Stadium',2,0,'MCI','INT'),
 
-('MAT009','2024-09-09','INT','PSG',1,1,'ITSA24'),
-('MAT010','2024-09-10','INT','RMA',0,2,'ITSA24'),
+('MAT009','2024-09-09','20:45:00','San Siro',1,1,'INT','PSG'),
+('MAT010','2024-09-10','20:45:00','San Siro',0,2,'INT','RMA'),
 
-('MAT011','2024-09-11','BAY','INT',2,1,'DEBU24'),
-('MAT012','2024-09-12','BAY','BAR',3,2,'DEBU24');
+('MAT011','2024-09-11','20:30:00','Allianz Arena',2,1,'BAY','INT'),
+('MAT012','2024-09-12','20:30:00','Allianz Arena',3,2,'BAY','BAR');
