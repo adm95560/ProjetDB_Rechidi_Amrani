@@ -95,5 +95,19 @@ L'objectif est de concevoir un système d'information en utilisant MERISE.
 | nb_passes_decisives    | Nombre de passes décisives d’un joueur        | Entier | 2      |
 
 ========================================
+MLD 
+========================================
+
+
+Entraineur = (id_entraineur VARCHAR(50), nom_entraineur VARCHAR(50), nationalite_entraineur VARCHAR(50), prenom_entraineur VARCHAR(50));
+championnat = (id_championnat VARCHAR(50), nom_championnat VARCHAR(50), pays_championnat VARCHAR(50), saison_championnat INT);
+Equipe = (id_equipe VARCHAR(50), ville_equipe VARCHAR(50), nom_equipe VARCHAR(50), #id_entraineur);
+match_ = (id_match VARCHAR(50), date_match DATE, heure_match TIME, stade_match VARCHAR(50), score_domicile_match VARCHAR(50), score_exterieur_match VARCHAR(50), #id_equipe, #id_equipe_1);
+Joueur = (id_joueur VARCHAR(50), nom_joueur VARCHAR(50), prénom_joueur VARCHAR(50), date_naissance_joueur VARCHAR(50), nationalité_joueur VARCHAR(50), poste_joueur VARCHAR(50), numero_maillot_joueur VARCHAR(50), #id_joueur_1, #id_equipe);
+PARTICIPE = (#id_joueur, #id_match, minutes_jouées INT, nb_but INT, nb_cartons_jaunes INT, nb_cartons_rouges INT, nb_passe_décisives INT);
+PARTICIPER_CHAMPIONNAT = (#id_equipe, #id_championnat, classement_championnat VARCHAR(50));
+
+
+========================================
 FIN DU DOCUMENT
 ========================================
