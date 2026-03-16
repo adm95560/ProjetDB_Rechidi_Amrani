@@ -301,17 +301,6 @@ La **troisième forme normale** (3FN) impose trois conditions cumulatives :
 - `classement_championnat` dépend bien du couple (équipe + championnat), pas d'un seul des deux.
 - **3FN respectée.**
 
-#### Récapitulatif
-
-| Table | 1FN | 2FN | 3FN |
-|-------|-----|-----|-----|
-| Entraineur | | | |
-| Championnat | | | |
-| Equipe | | | |
-| Match_ | | | |
-| Joueur | | | |
-| PARTICIPE | | | |
-| PARTICIPER_CHAMPIONNAT | | | |
 
 > Toutes les tables du MLD sont en **3ème Forme Normale**. Aucune redondance de données, aucune dépendance transitive ou partielle n'a été identifiée.
 
